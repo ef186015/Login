@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68123" started-at="2018-01-26T21:19:38Z" finished-at="2018-01-26T21:20:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68123" started-at="2018-01-26T21:19:38Z" finished-at="2018-01-26T21:20:47Z">
+      <class name="TestLoginPageErrorMessages">
+        <test-method status="PASS" signature="getChromeDriver()[pri:0, instance:TestLoginPageErrorMessages@47c62251]" name="getChromeDriver" is-config="true" duration-ms="7852" started-at="2018-01-26T16:19:38Z" finished-at="2018-01-26T16:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getChromeDriver -->
+        <test-method status="PASS" signature="testEmailDoesNotExistErrorMessage()[pri:0, instance:TestLoginPageErrorMessages@47c62251]" name="testEmailDoesNotExistErrorMessage" duration-ms="3413" started-at="2018-01-26T16:19:46Z" description="Verify that when a user enters an email address not associated with a DropSource account the correct UI validation error is displayed." finished-at="2018-01-26T16:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailDoesNotExistErrorMessage -->
+        <test-method status="PASS" signature="testEmailFieldBlankErrorMessage()[pri:0, instance:TestLoginPageErrorMessages@47c62251]" name="testEmailFieldBlankErrorMessage" duration-ms="2763" started-at="2018-01-26T16:19:50Z" description="Verify that when a user leaves the email field blank prior to or upon attempting login the correct UI validation error is displayed." finished-at="2018-01-26T16:19:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailFieldBlankErrorMessage -->
+        <test-method status="PASS" signature="testInvalidEmailAddressErrorMessage()[pri:0, instance:TestLoginPageErrorMessages@47c62251]" name="testInvalidEmailAddressErrorMessage" duration-ms="32801" started-at="2018-01-26T16:19:53Z" description="Verify that the when a user enters an email in an invalid format the correct UI validation error is displayed." finished-at="2018-01-26T16:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailAddressErrorMessage -->
+        <test-method status="PASS" signature="testPasswordDoesNotMeetRequirementsErrorMessage()[pri:0, instance:TestLoginPageErrorMessages@47c62251]" name="testPasswordDoesNotMeetRequirementsErrorMessage" duration-ms="18320" started-at="2018-01-26T16:20:25Z" description="Verify that when a user enters a password that does not meet requirements the correct UI validation error is displayed." finished-at="2018-01-26T16:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordDoesNotMeetRequirementsErrorMessage -->
+        <test-method status="PASS" signature="testPasswordFieldBlankErrorMessage()[pri:0, instance:TestLoginPageErrorMessages@47c62251]" name="testPasswordFieldBlankErrorMessage" duration-ms="2770" started-at="2018-01-26T16:20:44Z" description="Verify that when a user leaves the password field blank prior to or upon attempting login the correct UI validation error is displayed." finished-at="2018-01-26T16:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordFieldBlankErrorMessage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestLoginPageErrorMessages@47c62251]" name="closeBrowser" is-config="true" duration-ms="128" started-at="2018-01-26T16:20:46Z" finished-at="2018-01-26T16:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestLoginPageErrorMessages -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
