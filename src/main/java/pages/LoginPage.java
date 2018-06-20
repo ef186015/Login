@@ -77,8 +77,8 @@ public class LoginPage {
 	
 	public ProjectDashboardPage getProjectDashboardPage() {
 		WebDriverWait wait = new WebDriverWait(driver, 30);
-		WebElement buttonTag = driver.findElement(By.tagName("button"));
-		WebElement createNewProjectButton = buttonTag.findElement(By.className("common.primary.right.sub-header-button"));
+		//WebElement buttonTag = driver.findElement(By.tagName("button"));
+		WebElement createNewProjectButton = driver.findElement(By.className("common.primary.right.sub-header-button"));
 		wait.until(ExpectedConditions.elementToBeClickable(createNewProjectButton));
 		return new ProjectDashboardPage(driver);
 	}
