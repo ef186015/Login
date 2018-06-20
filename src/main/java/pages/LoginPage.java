@@ -8,12 +8,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage {
 	
-	public String url = "https://app.dropsource.com/login";
+	public String url = "https://sapp.dropsource.biz/login";
 	private String emailFieldName = "username";
 	private String passwordFieldName = "password";
 	private String loginButtonClassName = "loginButton";
 	private String emailToolTipErrorMessageXpath = "//DIV[@class='box' and @data-reactid='.0.1.1.1.1.0.1.0']";
 	private String passwordToolTipErrorMessageXpath = "//DIV[@class='box' and @data-reactid='.0.1.1.2.1.0.1.0']";
+	private String createNewProjectButtonClassName = "sub-header-button";
 	
 	private WebDriver driver;
 	
@@ -72,5 +73,13 @@ public class LoginPage {
 	public void clearPasswordTextField() {
 		WebElement passwordTextField = driver.findElement(By.name(passwordFieldName));
 		passwordTextField.clear();
+	}
+	
+	public ProjectDashboardPage getProjectDashboardPage() {
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		WebElement buttonTag = driver.findElement(By.tagName("button"));
+		WebElement createNewProjectButton = buttonTag.findElement(By.className("common.primary.right.sub-header-button"));
+		wait.until(ExpectedConditions.elementToBeClickable(createNewProjectButton));
+		return new ProjectDashboardPage(driver);
 	}
 }
