@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23665" started-at="2018-06-20T20:38:52Z" finished-at="2018-06-20T20:39:16Z">
+  <suite name="Default suite" duration-ms="45687" started-at="2018-06-22T19:01:43Z" finished-at="2018-06-22T19:02:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23665" started-at="2018-06-20T20:38:52Z" finished-at="2018-06-20T20:39:16Z">
+    <test name="Default test" duration-ms="45687" started-at="2018-06-22T19:01:43Z" finished-at="2018-06-22T19:02:29Z">
       <class name="BasicProjectCreation.CreatePhotoApp">
-        <test-method status="PASS" signature="LoginAsUser()[pri:0, instance:BasicProjectCreation.CreatePhotoApp@604ed9f0]" name="LoginAsUser" is-config="true" duration-ms="9355" started-at="2018-06-20T16:38:52Z" finished-at="2018-06-20T16:39:02Z">
+        <test-method status="PASS" signature="LoginAsUser()[pri:0, instance:BasicProjectCreation.CreatePhotoApp@604ed9f0]" name="LoginAsUser" is-config="true" duration-ms="9764" started-at="2018-06-22T15:01:43Z" finished-at="2018-06-22T15:01:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAsUser -->
-        <test-method status="PASS" signature="testPhotosApp()[pri:0, instance:BasicProjectCreation.CreatePhotoApp@604ed9f0]" name="testPhotosApp" duration-ms="14268" started-at="2018-06-20T16:39:02Z" description="Verify that a basic project can be created" finished-at="2018-06-20T16:39:16Z">
+        <test-method status="PASS" signature="testPhotosApp()[pri:0, instance:BasicProjectCreation.CreatePhotoApp@604ed9f0]" name="testPhotosApp" duration-ms="35364" started-at="2018-06-22T15:01:53Z" description="Verify that a basic project can be created" finished-at="2018-06-22T15:02:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPhotosApp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:BasicProjectCreation.CreatePhotoApp@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="12" started-at="2018-06-20T16:39:16Z" finished-at="2018-06-20T16:39:16Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:BasicProjectCreation.CreatePhotoApp@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="526" started-at="2018-06-22T15:02:28Z" finished-at="2018-06-22T15:02:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

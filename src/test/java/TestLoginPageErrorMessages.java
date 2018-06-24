@@ -3,7 +3,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import pages.LoginPage;
-import pages.LoginPageErrorMessages;
+import utils.LoginPageErrorMessages;
 import utils.TestUtils;
 
 import static org.testng.Assert.assertEquals;

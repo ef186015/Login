@@ -1,4 +1,4 @@
-package pages;
+package utils;
 
 public interface LoginPageErrorMessages {
 	
